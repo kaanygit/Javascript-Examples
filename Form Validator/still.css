@@ -1,0 +1,14 @@
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: url("http://sbt.com.tr/wp-content/uploads/Savin-NY-Website-Background-Web-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    
+}
+
+.error{
+    border: 1px solid red;
+}

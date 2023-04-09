@@ -1,0 +1,8 @@
+.card-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fa-sharp{
+    cursor: pointer;
+}

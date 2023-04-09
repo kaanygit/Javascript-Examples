@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Elements</title>
+</head>
+<body>
+    
+    <div class="cart-header">
+        <h3 class="cart-title h1" id="title" align="center">Todo App</h3>
+    </div>
+
+    <ul id="task-List">
+        <li class="task">Görev 1</li>
+        <li class="task">Görev 2</li>
+        <li class="task">Görev 3</li>
+        <li class="task">Görev 4</li>
+        <li class="task">Görev 5</li>
+        <li class="task">Görev 6</li>
+        <li class="task">Görev 7</li>
+        <li class="task">Görev 8</li>
+    </ul>
+    <ul id="task-List2">
+        <li class="task">Görev 1</li>
+        <li class="task">Görev 2</li>
+        <li class="task">Görev 3</li>
+        <li class="task">Görev 4</li>
+        <li class="task">Görev 5</li>
+        <li class="task">Görev 6</li>
+        <li class="task">Görev 7</li>
+        <li class="task">Görev 8</li>
+    </ul>  
+
+    <script>
+
+        let sonuc;
+
+        sonuc=document.getElementsByClassName("task")[0]; 
+        sonuc=document.getElementsByClassName("task")[1];
+        taskList=document.querySelectorAll("#task-List li");
+        taskList2=document.querySelectorAll("#task-List2 li");
+
+        for(let task in taskList){
+            console.log(task);
+        }
+        console.log("*****************************");
+
+        for(let task of taskList){
+            task.style.color="red";
+            task.style.fontSize="30px";
+        }
+        for(let task2 of taskList2){
+            task2.style.color="blue";
+            task2.style.fontSize="20px";
+        }
+
+
+        
+
+    </script>
+
+</body>
+</html>
