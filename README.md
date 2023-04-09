@@ -1,1 +1,1 @@
-# Python-Projects
+# The applications I made while learning Javascript
