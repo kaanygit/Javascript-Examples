@@ -1,6 +1,6 @@
 # The applications I made while learning Javascript
 
-## Excellent javascript applications that you will improve yourself while learning javascript
+## Excellent javascript applications that you will improve yourself while learning javascript !
 
 1) Calculator
 2) Cinema Ticket Reservation App
